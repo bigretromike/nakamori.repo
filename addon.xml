@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nakamori" name="Nakamori Repository" version="1.4.5" provider-name="BigRetroMike">
+<addon id="repository.nakamori" name="Nakamori Repository" version="1.4.6" provider-name="BigRetroMike">
 	<extension point="xbmc.addon.repository" name="Nakamori repo">
 		<info compressed="false">https://shokunin.monogatari.pl/repo/addons.xml</info>
 		<checksum>https://shokunin.monogatari.pl/repo/addons.xml.md5</checksum>
