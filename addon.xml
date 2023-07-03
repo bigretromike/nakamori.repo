@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.nakamori" name="Nakamori Repository" version="1.4.6" provider-name="BigRetroMike">
+<addon id="repository.nakamori" name="Nakamori Repository" version="2.0.0" provider-name="BigRetroMike">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+	</requires>
 	<extension point="xbmc.addon.repository" name="Nakamori repo">
-		<info compressed="false">https://shokunin.monogatari.pl/repo/addons.xml</info>
-		<checksum>https://shokunin.monogatari.pl/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://shokunin.monogatari.pl/repo</datadir>
+		<dir>
+			<info compressed="false">https://shokunin.monogatari.pl/repo/addons.xml</info>
+			<checksum>https://shokunin.monogatari.pl/repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://shokunin.monogatari.pl/repo</datadir>
+		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Nakamori repo</summary>
